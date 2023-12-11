@@ -25,8 +25,8 @@ $segundos = (int)$_GET['segundos'];
 $minutos = number_format($segundos / 60); //El método number_format() permite quitar los decimales a un número.
 $segundosFaltantes = 0;
 
-if ($segundos%60 != 0) { //Se evalúa la condición.
-    while ($segundos%60 != 0) {
+if ($segundos % 60 != 0) { //Se evalúa la condición.
+    while ($segundos % 60 != 0) {
         $segundos = $segundos + 1;
         $segundosFaltantes = $segundosFaltantes + 1;
     }
