@@ -1,7 +1,9 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="es">
 <head>
-        
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
 </head>
 <body>
 <h1>Formulario de ingreso de datos</h1>
@@ -19,8 +21,7 @@
                      
 <input type="submit" value="Enviar"></input> <?php //El usuario envia datos mediante GET. ?>
 </form>
-</body>
-    
+</body> 
         
 </html>
 
